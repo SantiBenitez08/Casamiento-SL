@@ -1,23 +1,19 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
 .info-lugares{
     padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include mixins.flex(row, space-around, none);
     gap: 20px;
 }
 .datos-ceremonia{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include mixins.flex(row, space-around, none);
 }
 .fotos-ce{
     width: 400px;
-    border-radius: 10px;
+    border-radius: variables.$border-radius;
 }
 .reglas-lugar{
     gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex(column, center, center);
 }

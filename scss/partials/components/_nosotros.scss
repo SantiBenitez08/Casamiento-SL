@@ -1,18 +1,17 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
 .info-nosotros{
     margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include mixins.flex(column, none, center);
     gap: 50px;
 }
 .fotos-tam{
     width: 400px;
-    border-radius: 10px;
+    border-radius: variables.$border-radius;
 }
 .info-hijos{
     margin: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include mixins.flex(row, space-around, none);
     gap: 30px;
 }

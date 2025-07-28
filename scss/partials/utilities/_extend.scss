@@ -1,0 +1,12 @@
+@use "./variables";
+
+%boton{
+    color: variables.$color-black;
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: variables.$color-boton;
+    border-radius: variables.$border-radius;
+}

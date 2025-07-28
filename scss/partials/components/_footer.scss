@@ -1,6 +1,6 @@
+@use "../utilities/mixins";
+
 footer{
     margin: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include mixins.flex(row, space-between, none);
 }

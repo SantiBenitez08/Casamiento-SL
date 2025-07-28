@@ -1,16 +1,12 @@
+@use "../utilities/mixins";
+
 .info-dresscode{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include mixins.flex(row, space-around, none);
 }
 .img-dresscode{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @include mixins.flex(row, center, none);
 }
 .info-spotify{
     margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include mixins.flex(column, none, center);
 }
