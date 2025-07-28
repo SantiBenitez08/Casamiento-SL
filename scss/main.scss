@@ -1,0 +1,11 @@
+//Base
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+
+//Components
+@use "./partials/components/footer";
+@use "./partials/components/general";
+@use "./partials/components/ceremonia";
+@use "./partials/components/boton";
+@use "./partials/components/fiesta";
+

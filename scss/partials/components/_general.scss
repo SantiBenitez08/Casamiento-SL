@@ -1,0 +1,29 @@
+.logo{
+    width: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.contador-dias{
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.datos-boda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.fotos-nosotros{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 35px;
+    gap: 40px;
+}
