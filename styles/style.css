@@ -184,4 +184,79 @@ p {
   width: 100%;
 }
 
+@media (max-width: 450px) {
+  .logo {
+    width: 70px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .fotos-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 35px;
+    gap: 40px;
+  }
+  .info-lugares {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    gap: 20px;
+  }
+  .info-dresscode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-nosotros {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .fotos-tam {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .info-hijos {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .logo {
+    width: 90px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .fotos-tam {
+    width: 300px;
+    border-radius: 10px;
+  }
+  .info-hijos {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .fotos-ce {
+    width: 300px;
+    border-radius: 10px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
